@@ -20,18 +20,18 @@ Projeto em linguagem C desenvolvido como parte do conteúdo do terceiro período
 
 ## 🚀 Como compilar e executar
 
+### 🔧 Terminal Linux/Mac/WSL:
+
 ### Via terminal (Linux/Mac/WSL):
-```bash
-gcc main.c contas.c -o banco
-./banco
 
-Ou use um compilador online como:
-
+🌐 Compiladores Online (se preferir):
 OnlineGDB
 
 Replit
 
-## 📖 Licença
-Este projeto é de uso acadêmico e está sob a licença MIT. Fique à vontade para estudar, modificar e reutilizar.
+📄 Licença
+Este projeto é de uso acadêmico e está sob a licença MIT. Você pode estudar, modificar e adaptar para fins educacionais.
+
+
 
 
