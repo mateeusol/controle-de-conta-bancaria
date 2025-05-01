@@ -31,7 +31,7 @@ OnlineGDB
 
 Replit
 
-📖 Licença
+## 📖 Licença
 Este projeto é de uso acadêmico e está sob a licença MIT. Fique à vontade para estudar, modificar e reutilizar.
 
 
