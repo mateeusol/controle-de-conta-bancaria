@@ -20,10 +20,6 @@ Projeto em linguagem C desenvolvido como parte do conteúdo do terceiro período
 
 ## 🚀 Como compilar e executar
 
-### 🔧 Terminal Linux/Mac/WSL:
-
-### Via terminal (Linux/Mac/WSL):
-
 🌐 Compiladores Online (se preferir):
 OnlineGDB
 
