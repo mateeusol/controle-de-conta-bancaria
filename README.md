@@ -1,34 +1,49 @@
-# 💰 Controle de Contas Bancárias
+# 💰 Projeto: Controle de Contas Bancárias
 
-Projeto em linguagem C desenvolvido como parte do conteúdo do terceiro período da faculdade de SI. O objetivo é simular um sistema simples de gerenciamento de contas bancárias com cadastro de cliente, saldo e operações básicas.
+Este projeto simula um sistema bancário simples, desenvolvido em linguagem C, com o objetivo de gerenciar dados de clientes e suas contas correntes. Foi desenvolvido como atividade do 3º período da faculdade, com foco em aplicar conceitos de structs, funções e manipulação de dados básicos.
 
-## 📌 Funcionalidades
+## 📌 Objetivo
 
-- Criar conta bancária
-- Consultar saldo e dados da conta
+- Gerenciar contas bancárias com nome do titular, número da conta, saldo e tipo da conta.
+- Permitir operações básicas como depósito, saque e transferência.
 
-## 🛠️ Tecnologias utilizadas
+## 🧱 Estrutura do Projeto
 
-- Linguagem C
-- Compilador GCC
-- Visual Studio Code
-- Git e GitHub
+- `main.c`: Arquivo principal que executa o menu e chama as funções.
+- `contas.c`: Implementação das funcionalidades das contas bancárias.
+- `contas.h`: Cabeçalho com a definição da struct e protótipos das funções.
 
-## 📂 Estrutura dos arquivos
+## 📋 Funcionalidades Implementadas
 
-- controle-contas-bancarias/ ├── main.c // Função principal e menu de opções ├── contas.c // Implementações das funções bancárias └── contas.h // Struct e declarações das funções
+| Funcionalidade      | Descrição |
+|---------------------|-----------|
+| Criar Conta         | Solicita ao usuário os dados (nome, número, saldo e tipo da conta). |
+| Ver Saldo           | Mostra os dados completos da conta, incluindo saldo formatado. |
+| Depositar           | Permite adicionar um valor ao saldo da conta (valor precisa ser positivo). |
+| Sacar               | Permite retirar um valor da conta, desde que o saldo seja suficiente. |
+| Transferir          | Permite transferir valores entre duas contas diferentes, validando o saldo disponível. |
 
-## 🚀 Como compilar e executar
+> Obs: As contas são simuladas na memória; os dados não são salvos em arquivos ou banco de dados.
 
-🌐 Compiladores Online (se preferir):
-OnlineGDB
-https://onlinegdb.com/nYArVpE3A
+## 💻 Como Executar
 
-Replit
+1. Clone este repositório:
+   ``bash
+   git clone https://github.com/mateeusol/controle-de-conta-bancaria
 
-📄 Licença
-Este projeto é de uso acadêmico e está sob a licença MIT. Você pode estudar, modificar e adaptar para fins educacionais.
+🛠 Requisitos
+Compilador C (como GCC)
+https://onlinegdb.com/utGaiY-3C
 
+VSCode ou outro editor de sua preferência
 
+📚 Aprendizados
+Este projeto permitiu praticar:
 
+Declaração e uso de structs
 
+Organização de código em múltiplos arquivos (.h e .c)
+
+Manipulação de entrada/saída com scanf e printf
+
+Uso de ponteiros para passagem por referência
