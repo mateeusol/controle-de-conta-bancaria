@@ -12,6 +12,10 @@ typedef struct {
 // funções disponíveis
 void criarConta(ContaBancaria *conta);
 void verSaldo(ContaBancaria conta);
+void depositar(ContaBancaria *conta, float valor);
+void sacar(ContaBancaria *conta, float valor);
+void transferir(ContaBancaria *origem, ContaBancaria *destino, float valor);
+
 
 #endif
 
