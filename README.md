@@ -31,13 +31,13 @@ Este projeto simula um sistema bancário simples, desenvolvido em linguagem C, c
    ``bash
    git clone https://github.com/mateeusol/controle-de-conta-bancaria
 
-🛠 Requisitos
+## 🛠 Requisitos
 Compilador C (como GCC)
 https://onlinegdb.com/utGaiY-3C
 
 VSCode ou outro editor de sua preferência
 
-📚 Aprendizados
+## 📚 Aprendizados
 Este projeto permitiu praticar:
 
 Declaração e uso de structs
